@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorías de Abogacía</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenido a Tutorías de Abogacía</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre Mí</a></li>
+          <li><a href="#tutorias">Agendar Tutoría</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>
+        Bienvenido a mi página de tutorías. Aquí encontrarás información útil y
+        podrás agendar sesiones personalizadas.
+      </p>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre Mí</h2>
+      <p>Información sobre el estudiante de abogacía.</p>
+    </section>
+
+    <section id="tutorias">
+      <h2>Agendar Tutoría</h2>
+      <form id="form-tutoria">
+        <input type="text" id="nombre" placeholder="Nombre" required />
+        <input
+          type="email"
+          id="email"
+          placeholder="Correo electrónico"
+          required
+        />
+        <input type="date" id="fecha" required />
+        <input type="time" id="hora" required />
+        <textarea
+          id="tema"
+          placeholder="Tema de la tutoría"
+          required
+        ></textarea>
+        <button type="submit">Agendar</button>
+      </form>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <p>Descripción de los servicios ofrecidos.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form id="form-contacto">
+        <input type="text" id="nombre-contacto" placeholder="Nombre" required />
+        <input
+          type="email"
+          id="email-contacto"
+          placeholder="Correo electrónico"
+          required
+        />
+        <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Tutorías de Abogacía</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
